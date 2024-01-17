@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-21T14:37:25 EST" name="Default suite" finished-at="2023-12-21T14:38:16 EST" duration-ms="51131">
+  <suite started-at="2024-01-17T15:37:30 EST" name="Suite" finished-at="2024-01-17T15:38:28 EST" duration-ms="57122">
     <groups>
     </groups>
-    <test started-at="2023-12-21T14:37:25 EST" name="Default test" finished-at="2023-12-21T14:38:16 EST" duration-ms="51131">
+    <test started-at="2024-01-17T15:37:30 EST" name="Test" finished-at="2024-01-17T15:38:28 EST" duration-ms="57122">
       <class name="testCases.BIllingDetailesTest">
-        <test-method signature="billing()[pri:0, instance:testCases.BIllingDetailesTest@771a660]" started-at="2023-12-21T14:37:25 EST" name="billing" finished-at="2023-12-21T14:38:16 EST" duration-ms="51091" status="PASS">
+        <test-method signature="billing()[pri:0, instance:testCases.BIllingDetailesTest@771a660]" started-at="2024-01-17T15:37:30 EST" name="billing" finished-at="2024-01-17T15:38:28 EST" duration-ms="57068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billing -->
       </class> <!-- testCases.BIllingDetailesTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

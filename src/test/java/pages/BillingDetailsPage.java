@@ -26,37 +26,37 @@ public class BillingDetailsPage extends BaseTest {
 		WebElement lName = dr.findElement(By.name("lastname"));
 		lName.sendKeys(lname);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement eMail = dr.findElement(By.xpath("//*[@id=\"input-payment-email\"]"));
 		eMail.sendKeys(Email);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement pHone = dr.findElement(By.name("telephone"));
 		pHone.sendKeys(phone);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement cOmpany = dr.findElement(By.name("company"));
 		cOmpany.sendKeys(company);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement aDdress = dr.findElement(By.name("address_1"));
 		aDdress.sendKeys(address);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement cIty = dr.findElement(By.xpath("//*[@id=\"input-payment-city\"]"));
 		cIty.sendKeys(city);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement postCode = dr.findElement(By.xpath("//*[@id=\"input-payment-postcode\"]"));
 		postCode.sendKeys(postcode);
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebElement cOuntry = dr.findElement(By.xpath("//*[@id=\"input-payment-country\"]/option[240]"));
 		cOuntry.click();
